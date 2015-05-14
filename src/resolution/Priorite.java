@@ -132,6 +132,7 @@ public class Priorite {
 		case 9 : this.tab_priorite = this.prioriteIRSM(tachespossibles, instance, lst, paires); break;
 		case 10 : this.tab_priorite = this.prioriteRSM(tachespossibles, instance, lst, paires); break;
 		default : this.tab_priorite = null; System.err.println("PB priorité");break;
+		//test
 		}
 	}
 		return this.tab_priorite;
